@@ -1,0 +1,111 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .login-box {
+        width: 100%;
+    }
+    .login-box .logo-heading h1 {
+        font-size: 30px;
+    }
+    form .form-input input {
+        font-size: 20px;
+    }
+    form .form-input img {
+        top: 28px;
+    }
+    .footer-section .inner-footer {
+        padding: 15px 10px !important;
+        display: block
+    }
+    .inner-footer .btn-continue {
+        top: 50px !important;
+    }
+    .process {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .process .numbers {
+        text-align: center;
+    }
+ }
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .process .numbers {
+        margin-right: 2px;
+    }
+    .caret-arrow {
+        margin: 0 8px;
+    }
+    .process p {
+        font-size: 13px;
+    }
+    .inner-footer .btn-continue {
+        top: 28px;
+        padding: 10px 10px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .footer-section .inner-footer {
+        padding: 45px 10px;
+        justify-content: start;
+    }
+    .inner-footer .btn-continue {
+        right: 10px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .login-box {
+        margin-top: 20px;
+    }
+    .login-box .logo-heading h1 {
+        margin-top: 20px;
+    }
+    form .form-input {
+        margin-bottom: 10px;
+    }
+    form .form-input input {
+        height: 80px;
+    }
+    form .form-input img {
+        top: 35px;
+    }
+    .login-here {
+        margin: 27px;
+    }
+    .inner-footer {
+        padding: 20px 0;
+    }
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .login-box {
+        margin-top: 50px;
+    }
+    .login-box .logo-heading h1 {
+        margin-top: 40px;
+    }
+    form .form-input {
+        margin-bottom: 21px;
+    }
+    form .form-input input {
+        height: 90px;
+    }
+    form .form-input img {
+        top: 41px;
+    }
+    .login-here {
+        margin:35px;
+    }
+    .inner-footer {
+        padding: 45px 0;
+    }
+ }
